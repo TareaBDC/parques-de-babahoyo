@@ -1,0 +1,214 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image:url(PARQUES/Babahoyo_5.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: 'Raleway';
+}
+
+/*Pagina Principal*/
+.navegacion{
+	width: 100%;
+}
+
+/*Menu*/
+.navegacion nav{
+	width: 90%;
+	max-width: 700px;
+	background: #2D3447;
+	margin: 40px auto;
+}
+
+.navegacion nav ul{
+	list-style: none;
+	position: relative;
+}
+
+.navegacion nav > ul > li{
+	display: inline-block;
+}
+
+.navegacion nav > ul > li > a{
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	padding: 20px;
+}
+
+/*SubMenu*/
+.navegacion nav ul li .submenu{
+	background: #fff;
+	padding: 20px;
+	position: absolute;
+	display: none;
+	-webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.24);
+	-moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.24);
+	box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.24);
+}
+
+.navegacion nav ul li:hover .submenu{
+	display: flex;
+}
+/*Sub SubMenu*/
+.navegacion nav ul li .submenu .submenu-items{
+	margin: 0 20px;
+}
+
+.navegacion nav ul li .submenu .submenu-items p{
+	font-weight: 600;
+	width: 110px;
+	display: block;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #565656;
+	margin-bottom: 10px;
+}
+
+.navegacion nav ul li .submenu .submenu-items a{
+	color: #474747;
+	text-decoration: none;
+	margin: 6px 0;
+	display: block;
+}
+
+/*Contenido de texto de la pagina principal*/
+#Contenido{
+	background-color: #EAF6FE;
+	border-radius: 24px;
+	width: 44%;
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Georgia';
+	padding: 8px;
+	margin: 0px auto;
+}
+
+#TextoBabahoyo{
+	width: 90%;
+	margin: 0px auto;
+	text-align: center;
+	text-align: justify;
+	font-size: 16px;
+	font-family: 'Times New Roman';
+}
+
+#TextoBabahoyo img{
+	width: 400px;
+	height:300px;
+	border-radius: 24px;
+	margin-top: 2%;
+	margin: 10px auto;
+	display: block;
+}
+
+
+/*ParquesPrincipal*/
+#ContenidoParque {
+	background-color: #EAF6FE;
+	border-radius: 24px;
+	width: 45%;
+	text-align: center;
+	font-size: 14px;
+	font-family: 'Georgia';
+	padding: 8px;
+	margin: 0px auto;
+}
+#ContenidoParque img{
+	width:175px;
+    height:175px;
+    border-radius:150px;
+}
+
+
+/*Informacion*/
+#Informacion{
+	background-color: #EAF6FE;
+	border-radius: 24px;
+	width: 44%;
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Georgia';
+	padding: 8px;
+	margin: 0px auto;
+}
+
+#TextoInformacion{
+	width: 90%;
+	margin: 0px auto;
+	text-align: center;
+	text-align: justify;
+	font-size: 16px;
+	font-family: 'Georgia';
+}
+
+
+/*Contactos*/
+#Contactos{
+	background-color: #EAF6FE;
+	border-radius: 24px;
+	width: 44%;
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Georgia';
+	padding: 8px;
+	margin: 0px auto;
+}
+
+#Textcontactos{
+	width: 90%;
+	margin: 0px auto;
+	text-align: center;
+	text-align: justify;
+	font-size: 18px;
+	font-family: 'Georgia';
+}
+
+
+
+/*Formulario*/
+#Formulario{
+	text-align: center;
+	background-color: #EAF6FE;
+	border-radius: 24px;
+	width: 50%;
+	font-size: 20px;
+	font-family: 'Georgia';
+	padding: 8px;
+	margin: 0px auto;
+}
+
+#SubFormulario{
+	border-radius: 24px;
+	width: 95%;
+	text-align: left;
+	font-size: 16px;
+	font-family: 'Georgia';
+	padding: 8px;
+	margin: 0px auto;
+}
+
+
+
+/*Pie*/
+
+footer {
+	width: 100%;
+	background: #EAF6FE;
+	font-size: 20px;
+	text-align: center;
+	line-height: 170%;
+	
+}
+
+p.Pie {
+	width: 100%;
+	height: 1200;
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+	background: #EAF6FE;
+}
